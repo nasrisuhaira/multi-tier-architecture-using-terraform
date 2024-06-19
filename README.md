@@ -89,3 +89,25 @@ Security Groups: Controls incoming and outgoing traffic to the application serve
 
 Application Tier Configuration
 
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/lauch-template-app.tf
+
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-app.tf
+
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/asg-app.tf
+
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-app-sg.tf
+
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/asg-app-sg.tf
+
+Database Tier
+
+The Database Tier stores and manages our application data. We use Amazon RDS for a managed database service. Key components include:
+
+Amazon RDS: A managed database service for MySQL/PostgreSQL/SQL Server databases.
+
+Security Groups: Control incoming and outgoing traffic to the database.
+
+Database Tier Configuration
+
+
+
