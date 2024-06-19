@@ -109,5 +109,52 @@ Security Groups: Control incoming and outgoing traffic to the database.
 
 Database Tier Configuration
 
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/db-subnet-group.tf
+
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/rds.tf
+
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/db-sg.tf
+
+Terraform Configuration
+
+The Terraform configuration for this project is organized into different and resources to create the necessary AWS infrastructure components. Key resources include:
+
+Virtual Private Cloud (VPC)
+
+Subnets and Route Tables
+
+Security Groups and Network ACLs
+
+Load Balancers
+
+Auto Scaling Groups
+
+RDS Database Instances
+
+🚀 Deployment
+
+Follow these steps to deploy the architecture:
+
+Clone the repository:
 
 
+Make changes as per your needs.
+
+Initialize Terraform and apply the configuration:
+
+terraform init
+
+Review the changes and confirm.
+
+💼 Usage
+Scaling
+
+To scale the Web or Application Tier, use Auto Scaling configurations provided in the respective Terraform files. Adjust the desired capacity to match your scaling requirements.
+
+Database Management
+
+Access the Amazon RDS instance in the Database Tier to manage your data.
+
+Load Balancing
+
+Configure the load balancer in the Web and Application Tiers to distribute traffic evenly.
