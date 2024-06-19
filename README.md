@@ -52,3 +52,5 @@ Auto Scaling: Automatically adjusts the number of web servers based on traffic.
 Security Groups: Controls incoming and outgoing traffic to the web servers.
 
 Web Tier Configuration
+
+
