@@ -52,5 +52,11 @@ Auto Scaling: Automatically adjusts the number of web servers based on traffic.
 Security Groups: Controls incoming and outgoing traffic to the web servers.
 
 Web Tier Configuration
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-web-sg.tf
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-web.tf
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/asg-web.tf
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-web-sg.tf
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/asg-web-sg.tf
+
 
 
