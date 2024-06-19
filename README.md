@@ -1,7 +1,9 @@
 Multi-Tier Architecture on AWS using Terraform
+
 Deploy a scalable and resilient multi-tier architecture on AWS using Terraform.
 
 🚀 Project Overview
+
 This project allows us to deploy a highly available, scalable, and secure multi-tier architecture on Amazon Web Services (AWS) using Terraform. 
 
 The architecture consists of the following three tiers:
@@ -14,6 +16,9 @@ Database Tier: The database stores and manages our application data. In this arc
 
 📌 Architecture Diagram
 multi-tier-architecture
+
+![278309947-14aeb752-ba87-4f51-87d5-bcf3000ee455](https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/assets/119873299/aef368e2-7f50-497f-abbe-85e0d17c4135)
+
 
 🚦 Getting Started
 Prerequisites
@@ -40,7 +45,9 @@ Terraform Configuration
 ✨ Features
 
 High Availability: The architecture is designed for fault tolerance and redundancy.
+
 Scalability: Easily scale the web and application tiers to handle varying workloads.
+
 Security: Security groups and network ACLs are configured to ensure a secure environment.
 
 🌟 Web Tier
@@ -48,10 +55,13 @@ Security: Security groups and network ACLs are configured to ensure a secure env
 The Web Tier is the entry point for incoming user requests. It typically includes:
 
 Load Balancer: Distributes traffic across multiple web servers.
+
 Auto Scaling: Automatically adjusts the number of web servers based on traffic.
+
 Security Groups: Controls incoming and outgoing traffic to the web servers.
 
 Web Tier Configuration
+
 https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-web-sg.tf
 
 https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/alb-web.tf
@@ -63,5 +73,19 @@ https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/mai
 https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform/blob/main/asg-web-sg.tf
 
 
+Application Tier
 
+The Application Tier hosts the application servers responsible for running business logic and interacting with the database tier. 
+
+Key components include:
+
+Application Servers: These run your application code and can be horizontally scaled.
+
+Load Balancer: Distributes traffic to the application servers.
+
+Auto Scaling: Automatically adjusts the number of web servers based on traffic.
+
+Security Groups: Controls incoming and outgoing traffic to the application servers.
+
+Application Tier Configuration
 
