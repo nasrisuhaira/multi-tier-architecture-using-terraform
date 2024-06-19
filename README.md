@@ -137,6 +137,7 @@ Follow these steps to deploy the architecture:
 
 Clone the repository:
 
+https://github.com/nasrisuhaira/multi-tier-architecture-using-terraform.git
 
 Make changes as per your needs.
 
